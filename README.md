@@ -4,10 +4,10 @@
 
 ## 🌟 특징
 
-- **반응형 디자인**: 모바일, 태블릿, 데스크톱 모든 기기에서 최적화
-- **미니멀 디자인**: 깔끔하고 읽기 쉬운 인터페이스
-- **빠른 로딩**: 정적 HTML/CSS/JS로 구성되어 빠른 성능
-- **SEO 최적화**: 메타 태그와 시맨틱 HTML 구조
+- **반응형 디자인** : 모바일, 태블릿, 데스크톱 모든 기기에서 최적화
+- **미니멀 디자인** : 깔끔하고 읽기 쉬운 인터페이스
+- **빠른 로딩** : 정적 HTML/CSS/JS로 구성되어 빠른 성능
+- **SEO 최적화** : 메타 태그와 시맨틱 HTML 구조
 
 ## 📁 파일 구조
 
@@ -29,12 +29,12 @@
 
 ### 1. GitHub 연동 배포 (권장)
 
-1. [Netlify](https://netlify.com)에 로그인
+1. [Netlify](https ://netlify.com)에 로그인
 2. "New site from Git" 클릭
 3. GitHub 연결 후 `qwer123toy/webpage` 저장소 선택
-4. 배포 설정:
-   - **Build command**: 비워두기 (정적 사이트)
-   - **Publish directory**: `/` (루트 디렉토리)
+4. 배포 설정 :
+   - **Build command** : 비워두기 (정적 사이트)
+   - **Publish directory** : `/` (루트 디렉토리)
 5. "Deploy site" 클릭
 
 ### 2. 드래그 앤 드롭 배포
@@ -45,29 +45,29 @@
 
 ## 🛠️ 기술 스택
 
-- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
-- **스타일링**: CSS Grid, Flexbox, CSS Variables
-- **반응형**: Mobile-first 접근법
-- **호스팅**: Netlify (정적 사이트 호스팅)
+- **Frontend** : HTML5, CSS3, JavaScript (ES6+)
+- **스타일링** : CSS Grid, Flexbox, CSS Variables
+- **반응형** : Mobile-first 접근법
+- **호스팅** : Netlify (정적 사이트 호스팅)
 
 ## ✨ 주요 기능
 
-- **네비게이션**: 고정 헤더와 모바일 햄버거 메뉴
-- **Hero 섹션**: 큰 타이포그래피와 CTA 버튼
-- **프로젝트 카드**: Hover 효과가 있는 인터랙티브 카드
-- **연락처**: 이메일 링크와 소셜 미디어 연결
-- **스무스 스크롤**: 부드러운 페이지 내 이동
+- **네비게이션** : 고정 헤더와 모바일 햄버거 메뉴
+- **Hero 섹션** : 큰 타이포그래피와 CTA 버튼
+- **프로젝트 카드** : Hover 효과가 있는 인터랙티브 카드
+- **연락처** : 이메일 링크와 소셜 미디어 연결
+- **스무스 스크롤** : 부드러운 페이지 내 이동
 
 ## 🎨 디자인 참고
 
-- [Gary Sheng's Stack](https://stack.garysheng.com/)
-- [Matt Will Dev](https://mattwilldev.com/)
+- [Gary Sheng's Stack](https ://stack.garysheng.com/)
+- [Matt Will Dev](https ://mattwilldev.com/)
 
 ## 📱 반응형 브레이크포인트
 
-- **모바일**: 480px 이하
-- **태블릿**: 768px 이하
-- **데스크톱**: 768px 이상
+- **모바일** : 480px 이하
+- **태블릿** : 768px 이하
+- **데스크톱** : 768px 이상
 
 ## 🔧 커스터마이징
 
@@ -84,8 +84,8 @@
 
 ## 📞 연락처
 
-- **Email**: jaemin.lee.dev@gmail.com
-- **GitHub**: [github.com/qwer123toy](https://github.com/qwer123toy)
+- **Email** : jaemin.lee.dev@gmail.com
+- **GitHub** : [github.com/qwer123toy](https ://github.com/qwer123toy)
 
 ---
 
