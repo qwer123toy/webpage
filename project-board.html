@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Spring Boot 익명 게시판</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="익명 기반 Q&A 게시판 소개">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .project-detail-img {
+      display : block;
+      max-width : 100%;
+      height : auto;
+      margin : 2rem auto;
+      border-radius : 12px;
+      box-shadow : 0 5px 20px rgba(0,0,0,0.1);
+    }
+    .project-section {
+      margin-top : 3rem;
+    }
+    .project-section h2 {
+      font-size : 1.5rem;
+      margin-bottom : 1rem;
+      color : #333;
+    }
+    .project-section ul {
+      padding-left : 1.2rem;
+      list-style : disc;
+      color : #555;
+      line-height : 1.8;
+    }
+    .btn-primary {
+      display : inline-block;
+      background : #333;
+      color : white;
+      padding : 0.8rem 1.5rem;
+      border-radius : 8px;
+      text-decoration : none;
+      font-weight : 600;
+      transition : all 0.3s ease;
+    }
+    .btn-primary:hover {
+      background : #555;
+      transform : translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">Jaemin Lee</a>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="projects.html" class="nav-link">Projects</a></li>
+        <li><a href="insights.html" class="nav-link">Insights</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="content-section">
+      <div class="container">
+        <h1 class="section-title">Spring Boot 익명 게시판</h1>
+        <img src="assets/spring_board.png" alt="익명 게시판 스크린샷" class="project-detail-img">
+
+        <p class="section-subtitle">
+          익명 기반으로 글을 작성하고 비밀번호로 보호할 수 있는 Q&A 게시판
+        </p>
+
+        <div class="project-section">
+          <h2>프로젝트 개요</h2>
+          <p>
+            본 프로젝트는 사용자 로그인을 요구하지 않고 누구나 자유롭게 글을 작성할 수 있는 <strong>익명 게시판</strong>으로,
+            비밀번호 기반 접근 제어를 통해 <strong>수정/삭제 권한을 제한</strong>하고, 사용자 간의 정보 공유와 소통이 가능하도록 구성된 Q&A 시스템입니다.
+          </p>
+        </div>
+
+        <div class="project-section">
+          <h2>주요 기능</h2>
+          <ul>
+            <li><strong>게시글 기능</strong> : 글 작성, 조회, 수정, 삭제</li>
+            <li><strong>보안 처리</strong> : 비밀글 설정, 비밀번호 인증 기반 수정/삭제</li>
+            <li><strong>검색 및 페이징</strong> : 키워드 기반 검색 및 페이지 이동</li>
+            <li><strong>예외 처리</strong> : 404 에러 핸들링, 사용자 피드백 출력</li>
+          </ul>
+        </div>
+
+        <div class="project-section">
+          <h2>사용 기술</h2>
+          <div class="project-tech" style="margin-bottom : 1.5rem;">
+            <span class="tech-tag">Java</span>
+            <span class="tech-tag">Spring Boot</span>
+            <span class="tech-tag">JPA</span>
+            <span class="tech-tag">JSP</span>
+            <span class="tech-tag">H2 DB</span>
+            <span class="tech-tag">JSTL</span>
+            <span class="tech-tag">DBCP2</span>
+            <span class="tech-tag">JUnit</span>
+          </div>
+          <ul>
+            <li><strong>백엔드 :</strong> Spring Boot, JPA 기반 게시판 로직 구현</li>
+            <li><strong>DB :</strong> H2 인메모리 데이터베이스 활용</li>
+            <li><strong>프론트엔드 :</strong> JSP, JSTL, HTML, CSS</li>
+            <li><strong>테스트 :</strong> JUnit을 이용한 기능 테스트</li>
+          </ul>
+        </div>
+
+        <div class="project-section">
+          <h2>개발 절차 및 방법론</h2>
+          <ul>
+            <li>요구사항 도출 및 익명 게시판 흐름 설계</li>
+            <li>Controller - Service - Repository 구조 설계</li>
+            <li>기능 단위 구현 후 JSP 기반 화면 연결</li>
+            <li>비밀번호 인증 처리 및 오류 대응 로직 구현</li>
+            <li>JUnit 기반 단위 테스트를 통한 검증</li>
+          </ul>
+        </div>
+
+        <div class="project-section">
+          <h2>내 역할</h2>
+          <ul>
+            <li>익명 Q&A 게시판 전체 아키텍처 설계</li>
+            <li>CRUD 기능 구현 및 비밀번호 인증 로직 처리</li>
+            <li>검색/페이징 기능과 예외 처리 구성</li>
+            <li>테스트 코드 작성 및 화면 검증</li>
+          </ul>
+        </div>
+
+        <div class="project-section" style="margin-top : 3rem;">
+          <a href="https://github.com/qwer123toy/customerqna" target="_blank" class="btn-primary">
+            GitHub 저장소 열기
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p class="footer-text">© 2025 Jaemin Lee. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
