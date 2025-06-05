@@ -84,8 +84,8 @@
 
 ## 📞 연락처
 
-- **Email** : jaemin.lee.dev@gmail.com
-- **GitHub** : [github.com/qwer123toy](https ://github.com/qwer123toy)
+- **Email** : qwer123toy@gmail.com
+- **GitHub** : [github.com/qwer123toy](https://github.com/qwer123toy)
 
 ---
 
