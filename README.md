@@ -60,8 +60,8 @@
 
 ## 🎨 디자인 참고
 
-- [Gary Sheng's Stack](https ://stack.garysheng.com/)
-- [Matt Will Dev](https ://mattwilldev.com/)
+- [Gary Sheng's Stack](https://stack.garysheng.com/)
+- [Matt Will Dev](https://mattwilldev.com/)
 
 ## 📱 반응형 브레이크포인트
 
