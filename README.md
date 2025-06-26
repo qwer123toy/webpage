@@ -13,28 +13,40 @@
 
 ```
 /
-├── index.html          # 메인 페이지 (Hero 섹션)
-├── about.html          # 소개 페이지 (기술 스택, 타임라인)
-├── projects.html       # 프로젝트 페이지 (포트폴리오)
-├── insights.html       # 개발 철학 페이지
-├── contact.html        # 연락처 페이지
+├── index.html                    # 메인 페이지 (Hero 섹션)
+├── about.html                    # 소개 페이지 (기술 스택, 타임라인)
+├── projects.html                 # 프로젝트 페이지 (포트폴리오)
+├── insights.html                 # 개발 철학 페이지
+├── contact.html                  # 연락처 페이지
+├── project-studyon.html          # StudyOn 프로젝트 상세 페이지
+├── project-board.html            # Spring Boot 게시판 프로젝트 상세 페이지
+├── project-card-car.html         # 법인카드·차량 관리 프로젝트 상세 페이지
+├── project-card-enjoyfood.html   # EnjoyFood 프로젝트 상세 페이지
+├── project-coffee.html           # J's Coffee 프로젝트 상세 페이지
+├── project-set-calculator.html   # 제품 세트 계산기 프로젝트 상세 페이지
 ├── css/
-│   └── style.css       # 메인 스타일시트
+│   └── style.css                 # 메인 스타일시트
 ├── js/
-│   └── main.js         # JavaScript 기능
-└── assets/             # 이미지 및 기타 자산
+│   └── main.js                   # JavaScript 기능
+└── assets/                       # 이미지 및 기타 자산
+    ├── studyon.png              # StudyOn 프로젝트 스크린샷
+    ├── card_car_used.png        # 법인카드·차량 관리 스크린샷
+    ├── coffee.png               # J's Coffee 스크린샷
+    ├── enjoyfood.png            # EnjoyFood 스크린샷
+    ├── set_calculator.png       # 제품 세트 계산기 스크린샷
+    └── spring_board.png         # Spring Boot 게시판 스크린샷
 ```
 
 ## 🚀 Netlify 배포 방법
 
 ### 1. GitHub 연동 배포 (권장)
 
-1. [Netlify](https ://netlify.com)에 로그인
+1. [Netlify](https://netlify.com)에 로그인
 2. "New site from Git" 클릭
 3. GitHub 연결 후 `qwer123toy/webpage` 저장소 선택
-4. 배포 설정 :
-   - **Build command** : 비워두기 (정적 사이트)
-   - **Publish directory** : `/` (루트 디렉토리)
+4. 배포 설정:
+   - **Build command**: 비워두기 (정적 사이트)
+   - **Publish directory**: `/` (루트 디렉토리)
 5. "Deploy site" 클릭
 
 ### 2. 드래그 앤 드롭 배포
